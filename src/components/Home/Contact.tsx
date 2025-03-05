@@ -7,17 +7,17 @@ const contactInfo = [
   {
     icon: <MapPin className="h-6 w-6 text-law-700" />,
     title: 'Our Location',
-    details: '123 Legal Avenue, Courtroom District, NY 10001',
+    details: '101, P9, Mayur Vihar-1, Near Shitla Mata Mandir, New Delhi- 110091',
   },
   {
     icon: <Phone className="h-6 w-6 text-law-700" />,
     title: 'Phone Number',
-    details: '(123) 456-7890',
+    details: '9311738762',
   },
   {
     icon: <Mail className="h-6 w-6 text-law-700" />,
     title: 'Email Address',
-    details: 'contact@virtuelaw.com',
+    details: 'chaudharyco@gmail.com',
   },
   {
     icon: <Clock className="h-6 w-6 text-law-700" />,
@@ -67,7 +67,7 @@ const Contact = () => {
               }}
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.11976397304903!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1645564916606!5m2!1sen!2sca"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14010.06563044742!2d77.29786120667393!3d28.614281060791996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4bdc74f4cc1%3A0x97793127c94add6e!2sMayur%20Vihar%20Phase%20I%2C%20Delhi!5e0!3m2!1sen!2sin!4v1741196833975!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

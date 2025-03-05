@@ -59,7 +59,7 @@ const About = () => {
           >
             <div className="absolute inset-0 bg-law-800 rounded-lg -translate-x-4 translate-y-4"></div>
             <img
-              src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
+              src="src/assets/image.jpeg"
               alt="Law firm team"
               className="relative w-full h-full object-cover object-center rounded-lg shadow-lg"
               style={{ minHeight: '480px' }}
@@ -72,7 +72,7 @@ const About = () => {
             </AnimatedText>
             
             <AnimatedText delay={200} className="text-law-700 leading-relaxed">
-              With over 25 years of experience, VirtueLaw has established itself as a leading law firm committed to excellence and client satisfaction. Our team of seasoned attorneys brings extensive expertise across various practice areas, allowing us to provide comprehensive legal solutions tailored to your specific needs.
+              With over 5 years of experience, Choudhary & Co. has established itself as a leading law firm committed to excellence and client satisfaction. Our team of seasoned attorneys brings extensive expertise across various practice areas, allowing us to provide comprehensive legal solutions tailored to your specific needs.
             </AnimatedText>
             
             <AnimatedText delay={300} className="text-law-700 leading-relaxed">

@@ -5,32 +5,33 @@ import AnimatedText from '../ui/AnimatedText';
 
 const teamMembers = [
   {
-    name: 'James Wilson',
+    name: 'Sachin Choudhary',
     role: 'Managing Partner',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+    image: 'src/assets/sachin.jpeg',
     specialty: 'Corporate Law',
-    bio: 'With over 20 years of experience, James leads our corporate practice with a focus on mergers and acquisitions.'
+    bio: 'With over 2 years of experience, Sachin leads our corporate practice with a focus on mergers and acquisitions.',
+    linkdinUrl: 'https://www.linkedin.com/in/sachin-chaudhary-719287212/'
   },
   {
-    name: 'Sarah Chen',
+    name: 'Babar',
     role: 'Senior Partner',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80',
+    image: 'src/assets/babar.jpeg',
     specialty: 'Family Law',
-    bio: 'Sarah specializes in complex family law matters, bringing compassion and strategic thinking to sensitive cases.'
+    bio: 'Babar specializes in complex family law matters, bringing compassion and strategic thinking to sensitive cases.'
   },
   {
-    name: 'Michael Rodriguez',
+    name: 'Akash Aggarwal',
     role: 'Partner',
-    image: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+    image: 'src/assets/Akash.jpeg',
     specialty: 'Criminal Defense',
-    bio: 'Michael is a former prosecutor who now uses his insider knowledge to build strong defenses for his clients.'
+    bio: 'Akash is a former prosecutor who now uses his insider knowledge to build strong defenses for his clients.'
   },
   {
-    name: 'Emily Johnson',
+    name: 'Saurabh',
     role: 'Associate',
-    image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    image: '',
     specialty: 'Real Estate',
-    bio: 'Emily specializes in commercial real estate transactions and development projects across multiple jurisdictions.'
+    bio: 'Saurabh specializes in commercial real estate transactions and development projects across multiple jurisdictions.'
   }
 ];
 
@@ -67,7 +68,7 @@ const Team = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-law-950 to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                   <div className="flex space-x-3">
-                    <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-law-800 hover:bg-law-100 transition-colors duration-300">
+                    <a href={member.linkdinUrl} className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-law-800 hover:bg-law-100 transition-colors duration-300">
                       <Linkedin className="h-5 w-5" />
                     </a>
                     <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-law-800 hover:bg-law-100 transition-colors duration-300">

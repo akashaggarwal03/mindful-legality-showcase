@@ -69,7 +69,7 @@ const PracticeAreas = () => {
               <div className="mb-6">{area.icon}</div>
               <h3 className="text-xl font-medium mb-3 text-law-800">{area.title}</h3>
               <p className="text-law-600 mb-6">{area.description}</p>
-              <a href={area.link} className="text-law-700 font-medium law-link">Learn More</a>
+              {/* <a href={area.link} className="text-law-700 font-medium law-link">Learn More</a> */}
             </div>
           ))}
         </div>
