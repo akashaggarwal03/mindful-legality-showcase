@@ -7,7 +7,7 @@ const teamMembers = [
   {
     name: 'Sachin Choudhary',
     role: 'Managing Partner',
-    image: 'src/assets/sachin.jpeg',
+    image: 'sachin.jpeg',
     specialty: 'Corporate Law',
     bio: 'With over 2 years of experience, Sachin leads our corporate practice with a focus on mergers and acquisitions.',
     linkdinUrl: 'https://www.linkedin.com/in/sachin-chaudhary-719287212/'
@@ -15,14 +15,14 @@ const teamMembers = [
   {
     name: 'Babar',
     role: 'Senior Partner',
-    image: 'src/assets/babar.jpeg',
+    image: 'Babar.jpeg',
     specialty: 'Family Law',
     bio: 'Babar specializes in complex family law matters, bringing compassion and strategic thinking to sensitive cases.'
   },
   {
     name: 'Akash Aggarwal',
     role: 'Partner',
-    image: 'src/assets/Akash.jpeg',
+    image: '/Akash.jpeg',
     specialty: 'Criminal Defense',
     bio: 'Akash is a former prosecutor who now uses his insider knowledge to build strong defenses for his clients.'
   },

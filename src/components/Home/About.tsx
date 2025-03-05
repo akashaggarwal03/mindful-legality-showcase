@@ -59,7 +59,7 @@ const About = () => {
           >
             <div className="absolute inset-0 bg-law-800 rounded-lg -translate-x-4 translate-y-4"></div>
             <img
-              src="src/assets/image.jpeg"
+              src="image.jpeg"
               alt="Law firm team"
               className="relative w-full h-full object-cover object-center rounded-lg shadow-lg"
               style={{ minHeight: '480px' }}
