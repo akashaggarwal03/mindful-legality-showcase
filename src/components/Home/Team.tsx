@@ -8,30 +8,22 @@ const teamMembers = [
     name: 'Sachin Choudhary',
     role: 'Managing Partner',
     image: 'sachin.jpeg',
-    specialty: 'Corporate Law',
-    bio: 'With over 2 years of experience, Sachin leads our corporate practice with a focus on mergers and acquisitions.',
-    linkdinUrl: 'https://www.linkedin.com/in/sachin-chaudhary-719287212/'
+    bio: ' Sachin leads our corporate practice with a focus on mergers and acquisitions.',
+    linkdinUrl: 'https://www.linkedin.com/in/sachin-chaudhary-719287212/',
+    mail: "sachinchoudhary.co.in@gmail.com"
   },
   {
-    name: 'Babar',
+    name: 'Arvind Chaudhary',
     role: 'Senior Partner',
-    image: 'Babar.jpeg',
-    specialty: 'Family Law',
-    bio: 'Babar specializes in complex family law matters, bringing compassion and strategic thinking to sensitive cases.'
+    image: 'no-profile.jpeg',
+    specialty: 'Litigation',
+    bio: 'Arvind is a seasoned litigator with over 30 years of experince.',
   },
   {
-    name: 'Akash Aggarwal',
-    role: 'Partner',
-    image: '/Akash.jpeg',
-    specialty: 'Criminal Defense',
-    bio: 'Akash is a former prosecutor who now uses his insider knowledge to build strong defenses for his clients.'
-  },
-  {
-    name: 'Saurabh',
-    role: 'Associate',
-    image: '',
-    specialty: 'Real Estate',
-    bio: 'Saurabh specializes in commercial real estate transactions and development projects across multiple jurisdictions.'
+    name: 'Rajeev Hooda',
+    role: 'Associate Partner',
+    image: 'no-profile.jpeg',
+    bio: 'Rajeev is an Asosoicate partner with over 25 years of experince'
   }
 ];
 
@@ -71,7 +63,7 @@ const Team = () => {
                     <a href={member.linkdinUrl} className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-law-800 hover:bg-law-100 transition-colors duration-300">
                       <Linkedin className="h-5 w-5" />
                     </a>
-                    <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-law-800 hover:bg-law-100 transition-colors duration-300">
+                    <a href={member.mail} className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-law-800 hover:bg-law-100 transition-colors duration-300">
                       <Mail className="h-5 w-5" />
                     </a>
                   </div>

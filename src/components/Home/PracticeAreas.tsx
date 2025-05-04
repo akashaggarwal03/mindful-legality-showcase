@@ -39,7 +39,13 @@ const practiceAreas = [
     title: 'Litigation',
     description: 'Skilled advocacy in civil litigation matters, representing clients in court with precision and determination.',
     link: '#'
-  }
+  },
+  { 
+    icon: <FileText className="h-10 w-10 text-law-700" />,
+    title: 'Other Areas',
+    description: '1. Civil Suits 2. Arbitration 3. Transfer Petition 4. Negotiable Instrument',
+    link: '#'
+  },
 ];
 
 const PracticeAreas = () => {

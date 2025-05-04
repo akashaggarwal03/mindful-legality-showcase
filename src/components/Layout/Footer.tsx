@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-6">
             <h2 className="text-2xl font-serif font-medium">
-              Virtue<span className="text-law-300">Law</span>
+              Chaudhary & Co.<span className="text-law-300"></span>
             </h2>
             <p className="text-law-100 text-sm leading-relaxed">
               We provide comprehensive legal solutions with a focus on excellence and client satisfaction. Our team of dedicated attorneys is committed to achieving the best possible outcomes for our clients.
@@ -67,15 +67,17 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-law-300 mt-0.5" />
-                <span className="text-sm text-law-200">123 Legal Avenue, Courtroom District, NY 10001</span>
+                <span className="text-sm text-law-200">101, P9, Mayur Vihar-1, Near Shitla Mata Mandir, New Delhi- 110091</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-law-300" />
-                <span className="text-sm text-law-200">(123) 456-7890</span>
+                <span className="text-sm text-law-200">9311738762</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-law-300" />
-                <span className="text-sm text-law-200">contact@virtuelaw.com</span>
+                <span className="text-sm text-law-200">sachinchoudhary.co.in@gmail.com
+
+</span>
               </li>
             </ul>
           </div>
@@ -85,7 +87,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-law-300 text-sm">
-            &copy; {new Date().getFullYear()} VirtueLaw. All rights reserved.
+            &copy; {new Date().getFullYear()} Chaudhary & Co. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-law-300 hover:text-white text-sm transition-colors duration-300">

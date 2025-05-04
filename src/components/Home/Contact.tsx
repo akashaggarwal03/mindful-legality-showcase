@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: <Mail className="h-6 w-6 text-law-700" />,
     title: 'Email Address',
-    details: 'chaudharyco@gmail.com',
+    details: 'sachinchoudhary.co.in@gmail.com',
   },
   {
     icon: <Clock className="h-6 w-6 text-law-700" />,
@@ -53,7 +53,7 @@ const Contact = () => {
                   <div className="mr-4 mt-1">{item.icon}</div>
                   <div>
                     <h3 className="text-lg font-medium text-law-800 mb-1">{item.title}</h3>
-                    <p className="text-law-600">{item.details}</p>
+                    <p className="text-law-600 ">{item.details}</p>
                   </div>
                 </div>
               ))}
@@ -94,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="name"
                     className="w-full px-4 py-3 rounded-md border border-law-200 focus:outline-none focus:ring-2 focus:ring-law-500 focus:border-transparent"
-                    placeholder="John Doe"
+                    placeholder="Your name"
                   />
                 </div>
                 <div>
@@ -131,6 +131,7 @@ const Contact = () => {
                   <option value="real-estate">Real Estate</option>
                   <option value="tax">Tax Law</option>
                   <option value="litigation">Litigation</option>
+                  <option value="other">Other</option>
                 </select>
               </div>
               
